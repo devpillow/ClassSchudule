@@ -1,0 +1,29 @@
+*{
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-family: 'Mitr', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(57, 56, 56);
+    color: white;
+}
+
+
+.draggable {
+    width: 25%;
+    min-height: 100%;
+   /* margin: 1rem 0 0 1rem;*/
+    background-color: #29e;
+    color: white;
+    border-radius: 0.75em;
+    padding: 4%;
+    touch-action: none;
+    user-select: none;
+  }
+
+  
+  
+  
+   

@@ -24,6 +24,49 @@ body {
   }
 
   
-  
-  
-   
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7 วัน */
+    grid-template-rows: repeat(12, 1fr); /* 12 ชั่วโมง */
+    gap: 2px;
+    width: 100%;
+    height: 80vh;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.grid-item {
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.draggable-box {
+    width: 100%;
+    height: 100px;
+    background-color: lightblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+    margin-bottom: 10px;
+}
+
+.initial-box {
+    width: 100%;
+    height: 120px;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.box-container {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;}
